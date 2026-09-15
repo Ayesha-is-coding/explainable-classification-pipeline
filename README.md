@@ -32,4 +32,4 @@ Top 5 SHAP features: worst area, worst concave points, worst radius, mean concav
 On this dataset, explicit imbalance-handling (class weighting, SMOTE) did not outperform the plain baseline — imbalance here is mild (62.7/37.3), so there was little room for these techniques to help, and SMOTE's synthetic minority oversampling slightly reduced precision in exchange for recall. This suggests imbalance-handling techniques are not universally beneficial and their payoff scales with how severe the imbalance actually is — a hypothesis worth testing on a severely imbalanced dataset (e.g. <1% positive class fraud data).
 
 ## Next steps
-Re-run the identical pipeline on a severely imbalanced binary classification dataset (e.g. Kaggle's Credit Card Fraud Detection, ULB) to test whether the imbalance-ablation finding changes under more extreme class skew.
+Re-run the identical pipeline on a severely imbalanced binary classification dataset to test whether the imbalance-ablation finding changes under more extreme class skew.
